@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* TOP NAV */
+
+.topnav {
+    background-color: black;
+    height: 81px;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+  }
+
+.nav-wrapper {
+    max-width: 1250px;
+    height: 81px;
+    margin: 0 auto; 
+    padding: 1rem 0rem 65px;
+}
+ 
+  
+.topnav-right {
+    float: right;
+    margin-left: 2px; 
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-family: sans-serif;
+    font-weight: 500;
+    float: left;
+    height: 60px;
+    position: absolute;
+    top: 10.5px;
+    color: grey;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+.dropdown-icon {
+    margin-left: 30px;
+}
+
+.Instagram-icon {
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+/* MAIN IMAGE SECTION */
+
+.home-image-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.home-page-image {
+    width: 100%;
+}
+
+
+
+/* FOOTER */
+
+.footer-section {
+    background-color: black;
+}
+
+.footer-container {
+    max-width: 1312px;
+    height: 70px;
+}
+
+
+
+/* BIO */
+
+.main-content-section {
+    max-width: 1312px;
+    height: 730px;
+}
+
+.bio-content-container {
+    max-width: 600px;
+    float: right;
+    padding: 20px 36px;
+
+}
+
+.bio-content-words {
+    color: grey;
+    line-height: 1.3;
+}
+
+.bio-image-container {
+    max-width: 600px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.bio-image {
+    width: 525px;
+    height: 300px;
+
+}
+
+
+/* EXHIBITIONS */
+
+.exhib-content-section {
+    display: flex;
+    height: 800px;
+}
+
+.exhib-words-container {
+    max-width: 800px;
+    padding: 30px 90px 0px 25px;
+}
+
+.exhib-words {
+    color: grey;
+    line-height: 1.3;
+}
+
+.exhib-image-container {
+    max-width: 600px;
+    height: 800px;
+    margin-left: 40px;
+}
+
+.exhib-image {
+    width: 500px;
+    height: 800px;
+}
