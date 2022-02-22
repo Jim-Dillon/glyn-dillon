@@ -199,10 +199,11 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /*background: transparent;*/
+    background: transparent;
     border: 0;
-    width: 3rem;
+    width: 30vw;
     height: 400px;
+    z-index: 10;
 }
 
 .carousel__button--left {
