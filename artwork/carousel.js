@@ -7,7 +7,7 @@ const prevButton = document.querySelector('.carousel__button--left');
 //const dotsNav = document.querySelector('.carousel__nav');
 //const dots = Array.from(dotsNav.children);
 
-const slideWidth = slides[0].getBoundingClientRect().width;
+
 //Each slide size is the same width as the first [0] slide
 
 
@@ -17,14 +17,17 @@ const slideWidth = slides[0].getBoundingClientRect().width;
 // slides[1].style.left = slideWidth * 1 + 'px';
 // slides[2].style.left = slideWidth * 2 + 'px';
 
-const setSlidePosition = (slide, index) => {
-    slide.style.left = slideWidth * index + 'px';
+const init = () => {
+console.log('init');
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    const setSlidePosition = (slide, index) => {
+        slide.style.left = slideWidth * index + 'px';
+    };
+    //function to set slide position 
+
+    slides.forEach(setSlidePosition);
+    // loop so it applies to all slides automatically
 };
-//function to set slide position 
-
-slides.forEach(setSlidePosition);
-// loop so it applies to all slides automatically
-
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
@@ -58,6 +61,13 @@ prevButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
     const prevSlide = currentSlide.previousElementSibling;
     
+    // let prevSlide;
+    // if (currentSlide.previousElementSibling == null) {
+    //     prevSlide = slides[slides.length-1];
+    // } else {
+    //     prevSlide = currentSlide.prevElementSibling
+    // }
+    
     /*
     const currentDot = dotsNav.querySelector('.current-slide');
     const prevDot = currentDot.previousElementSibling;
@@ -67,10 +77,18 @@ prevButton.addEventListener('click', e => {
 });    
 
 
+
+
 // WHEN I CLICK RIGHT, MOVE SLIDES RIGHT
 nextButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
-    const nextSlide = currentSlide.nextElementSibling;
+    let nextSlide;
+    if (currentSlide.nextElementSibling == null) {
+        nextSlide = slides[0];
+    } else {
+        nextSlide = currentSlide.nextElementSibling;
+    }
+
     /*
     const currentDot = dotsNav.querySelector('.current-slide');
     const nextDot = currentDot.nextElementSibling;
@@ -78,6 +96,10 @@ nextButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, nextSlide);
     //updateDots(currentDot, nextDot);
 });
+
+window.addEventListener('resize', init);
+
+init();
 
 
 
