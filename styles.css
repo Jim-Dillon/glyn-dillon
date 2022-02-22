@@ -11,14 +11,16 @@ body {
 
 /* TOP NAV */
 
+.sticky-header {
+    position: sticky;
+    top: 0;
+}
+
 .topnav {
     background-color: black;
     height: 81px;
-    width: 100%;
-    position: sticky;
-    z-index: 1;
-    top: 0;
-  }
+    width: 100%;    
+}
 
 .nav-wrapper {
     max-width: 1250px;
@@ -72,6 +74,7 @@ body {
 
 .home-page-image {
     width: 100%;
+    margin-bottom: -4px;
 }
 
 
