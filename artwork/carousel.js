@@ -1,20 +1,17 @@
+// DEFINE VARIABLES FIRST FOR LATER USE
+
 const track = document.querySelector('.carousel__track');
-
 const slides = Array.from(track.children);
-
 const nextButton = document.querySelector('.carousel__button--right');
 const prevButton = document.querySelector('.carousel__button--left');
-
-const dotsNav = document.querySelector('.carousel__nav');
-
-const dots = Array.from(dotsNav.children);
+//const dotsNav = document.querySelector('.carousel__nav');
+//const dots = Array.from(dotsNav.children);
 
 const slideWidth = slides[0].getBoundingClientRect().width;
+//Each slide size is the same width as the first [0] slide
 
 
-// console.log(slideWidth);
-
-// arrange slides next to one another 
+// ARRANGE SLIDES NEXT TO EACH OTHER 
 
 // slides[0].style.left = slideWidth * 0 + 'px';
 // slides[1].style.left = slideWidth * 1 + 'px';
@@ -23,8 +20,10 @@ const slideWidth = slides[0].getBoundingClientRect().width;
 const setSlidePosition = (slide, index) => {
     slide.style.left = slideWidth * index + 'px';
 };
+//function to set slide position 
 
 slides.forEach(setSlidePosition);
+// loop so it applies to all slides automatically
 
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
@@ -53,7 +52,7 @@ const hideShowArrows = (slides, prevButton, nextButton, targetIndex) {
 }
 */
 
-// When I click left, move slides to the left
+// WHEN I CLICK LEFT, MOVE SLIDES LEFT
 
 prevButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
@@ -68,7 +67,7 @@ prevButton.addEventListener('click', e => {
 });    
 
 
-// When I click right, move slides to the right
+// WHEN I CLICK RIGHT, MOVE SLIDES RIGHT
 nextButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
     const nextSlide = currentSlide.nextElementSibling;

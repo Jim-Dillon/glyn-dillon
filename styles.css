@@ -167,11 +167,10 @@ body {
 .carousel__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .carousel__track-container {
-    background: lightgreen;
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -197,23 +196,27 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: transparent;
+    /*background: transparent;*/
     border: 0;
-    cursor: pointer;
+    width: 3rem;
+    height: 400px;
 }
 
 .carousel__button--left {
-    left: -40px;
+    left: -60px;
+    cursor: w-resize;
 }
 
 .carousel__button--right {
-    right: -40px;
+    right: -60px;
+    cursor: e-resize;
 }
 
 .carousel__button img {
     width: 12px;
 }
 
+/*
 .carousel__nav {
     display: flex;
     justify-content: center;
@@ -234,4 +237,103 @@ body {
 .carousel__indicator.current-slide {
     background: rgba(0, 0, 0, .75);
 }
+*/
 
+.art-footer-section {
+    background-color: black;
+}
+
+.art-footer-container {
+    max-width: 1312px;
+    height: 70px;
+}
+
+.art-caption {
+    color: white;
+    margin-top: -30px;
+    margin-left: 20px;
+    height: 2rem;
+}
+
+
+/* CONTACT PAGE */
+
+hr {
+    background: none;
+    border: none;
+    width: 300px;
+    
+}
+
+.contact-wrapper {
+    max-width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: rgb(109, 105, 105);
+    background-color: lightgray;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+}
+
+
+
+.contact-title {
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: grey;
+    text-align: center;
+}
+
+h2 {}
+
+
+
+#fname {
+    height: 2rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#email {
+    height: 2rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#phone-number {
+    height: 2rem;
+    width: 225px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#query-heading {
+    height: 2rem;
+    width: 224px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#subject {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    border: 1.5px solid rgb(170, 169, 169);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 20px;
+}
