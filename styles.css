@@ -298,8 +298,6 @@ hr {
     text-align: center;
 }
 
-h2 {}
-
 
 
 #fname {
@@ -340,4 +338,22 @@ input[type=submit] {
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
     padding: 12px 20px;
+}
+
+/* THANK YOU MESSAGE */
+
+
+.thanks-container {
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 505px;
+}
+
+.thanks-message {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: grey;
+    text-align: center;
 }
