@@ -11,59 +11,7 @@ body {
 
 /* TOP NAV */
 
-.sticky-header {
-    position: sticky;
-    top: 0;
-}
 
-.topnav {
-    background-color: black;
-    height: 81px;
-    width: 100%;    
-}
-
-.nav-wrapper {
-    max-width: 1250px;
-    height: 81px;
-    margin: 0 auto; 
-    padding: 1rem 0rem 65px;
-}
- 
-  
-.topnav-right {
-    float: right;
-    margin-left: 2px; 
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    float: left;
-    height: 60px;
-    position: absolute;
-    top: 10.5px;
-    color: grey;
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-
-.dropdown-icon {
-    margin-left: 30px;
-}
-
-.Instagram-icon {
-    margin-left: 5px;
-    margin-top: -2px;
-}
-
-.Instagram {
-    width: 34px;
-    height: 34px;
-}
 
 /* MAIN IMAGE SECTION */
 
@@ -387,4 +335,149 @@ input[type=submit] {
     margin-bottom: 190px;
     padding-bottom: 85px;
 }
+
+
+
+
+/* TEST DROPDOWN */
+
+
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 81px;
+    background-color: black;
+}
+
+.nav-wrapper {
+    max-width: 1250px;
+    height: 81px;
+    margin: 0 auto; 
+    padding: 1rem 0rem 65px;
+}
+ 
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    float: left;
+    height: 60px;
+    position: absolute;
+    top: 10.5px;
+    color: grey;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* MAIN HEADINGS GROUP*/
+
+.nav-icons {
+    float: right;
+    padding-right: 30px;
+    margin-top: -12px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+}
+
+/* EACH MAIN HEADING */
+nav .nav-wrapper ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    margin-left: 80px;
+    height: 75px;
+    width: 100px;
+}
+
+/* LINKS WITHIN EACH HEADING */
+nav .nav-wrapper ul li a {
+    display: block;
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.Instagram-icon {
+    padding-top: 20.5px; 
+    padding-bottom: 17.5px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.Instagram {
+    width: 34px;
+    height: 34px;
+}
+
+.dropdown-icon {    
+    padding-top: 21.75px; 
+    padding-bottom: 19.5px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.IG-dropdown {
+    display: none;   
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-top: 125px;
+    background-color: rgb(99, 98, 98);
+    border-radius: 0px 0px 4px 4px;
+    width: 150px;
+    height: 200px;
+}
+
+.pages-dropdown {
+    display: none;   
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-top: 30px;
+    background-color: rgb(99, 98, 98);
+    border-radius: 0px 0px 4px 4px;
+    width: 150px;
+    height: 200px;
+}
+
+/* HOVER TO ACTIVATE THE DROPDOWN */
+nav .nav-wrapper ul li:hover ul {
+    display: block;
+}
+
+
+/* EACH DROPDOWN SQUARE */
+nav .nav-wrapper ul li ul li {
+    width: 120px;
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+/* EACH DROPDOWN BUTTON LINK */
+
+nav .nav-wrapper ul li ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 8px 14px;
+    color: white;
+    
+}
+
+/* STYLE WHEN HOVER ON DROPDOWN BUTTON */
+
+nav .nav-wrapper ul li ul li a:hover {
+    color: black;
+}
+
+
 
