@@ -118,8 +118,12 @@ body {
 .carousel__image {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: scale-down;
+    position: relative;
+    z-index: -1;
 }
+
+
 
 .carousel__track-container {
     height: 100%;
@@ -167,6 +171,13 @@ body {
 .carousel__button img {
     width: 12px;
 }
+
+/* ART PIECES */
+
+.image-one {
+    height: 564px;
+}
+
 
 /*
 .carousel__nav {
@@ -339,12 +350,13 @@ input[type=submit] {
 
 
 
-/* TEST DROPDOWN */
+/*DROPDOWN */
 
 
 
 .sticky-header {
     position: sticky;
+    z-index: 2;
     top: 0;
 }
 
@@ -426,6 +438,7 @@ nav .nav-wrapper ul li a {
 .IG-dropdown {
     display: none;   
     position: absolute;
+    z-index: 2;
     padding-left: 0px;
     padding-right: 5px;
     padding-top: 125px;
