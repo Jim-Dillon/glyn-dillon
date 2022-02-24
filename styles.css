@@ -174,8 +174,89 @@ body {
 
 /* ART PIECES */
 
-.image-one {
-    height: 564px;
+.image-1 {
+    height: 500px;
+    margin-top: 50px;
+}
+
+.image-2 {
+    height: 350px;
+    margin-top: 125px;
+}
+
+.image-3 {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.image-4 {
+    height: 420px;
+    margin-top: 90px;
+}
+
+.image-5 {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.image-6 {
+    height: 420px;
+    margin-top: 90px;
+}
+
+.image-7 {
+    height: 300px;
+    margin-top: 150px;
+}
+
+.image-8 {
+    height: 380px;
+    margin-top: 110px;
+}
+
+.image-9 {
+    height: 470px;
+    margin-top: 65px;
+} 
+
+.image-10 {
+    height: 390px;
+    margin-top: 105px;
+}
+
+.image-11 {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.image-12 {
+    height: 450px;
+    margin-top: 75px;
+}
+
+.image-13 {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.image-14 {
+    height: 500px;
+    margin-top: 50px;
+}
+
+.image-15 {
+    height: 525px;
+    margin-top: 37.5px;
+}
+
+.image-16 {
+    height: 425px;
+    margin-top: 87.5px;
+}
+
+.image-17 {
+    height: 350px;
+    margin-top: 125px;
 }
 
 
@@ -212,7 +293,9 @@ body {
 }
 
 .art-caption {
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: black;
     margin-bottom: -50px;
     margin-left: 20px;
     height: 2rem;
@@ -343,7 +426,8 @@ input[type=submit] {
     font-family: 'Montserrat', sans-serif; 
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 190px;
+    margin-top: 60px;
+    margin-bottom: 129px;
     padding-bottom: 85px;
 }
 
@@ -443,7 +527,7 @@ nav .nav-wrapper ul li a {
     padding-right: 5px;
     padding-top: 125px;
     background-color: rgb(99, 98, 98);
-    border-radius: 0px 0px 4px 4px;
+    /* border-radius: 0px 0px 4px 4px; */
     width: 150px;
     height: 200px;
 }
@@ -455,7 +539,7 @@ nav .nav-wrapper ul li a {
     padding-right: 5px;
     padding-top: 30px;
     background-color: rgb(99, 98, 98);
-    border-radius: 0px 0px 4px 4px;
+    /* border-radius: 0px 0px 4px 4px; */
     width: 150px;
     height: 200px;
 }
@@ -470,7 +554,7 @@ nav .nav-wrapper ul li:hover ul {
 nav .nav-wrapper ul li ul li {
     width: 120px;
     height: 2rem;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     padding-left: 0px;
     margin-left: 0px;
 
