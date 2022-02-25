@@ -291,6 +291,7 @@ body {
 .art-footer-container {
     max-width: 1312px;
     height: 70px;
+    bottom: 0px;
 }
 
 .art-caption {
@@ -298,10 +299,84 @@ body {
     font-size: 12px;
     color: black;
     margin-bottom: -50px;
-    margin-left: 20px;
     height: 2rem;
 }
 
+/* ART CAPTIONS */
+
+.caption-1 {
+    text-align: center;
+}
+
+.caption-2 {
+    text-align: center;
+}
+
+.caption-3 {
+    transform: translateX(5%);
+}
+
+.caption-4 {
+    transform: translateX(7.5%);
+}
+
+.caption-5 {
+    transform: translateX(4.5%);
+}
+
+.caption-6 {
+    transform: translateX(7.5%);
+}
+
+.caption-7 {
+    transform: translateX(9%);
+}
+
+.caption-8 {
+    transform: translateX(8%);
+}
+
+.caption-9 {
+    text-align: center;
+}
+
+.caption-10 {
+    transform: translateX(6%);
+}
+
+.caption-11 {
+    transform: translateX(9%);
+}
+
+.caption-12 {
+    text-align: center;
+}
+
+.caption-13 {
+    transform: translateX(9%);
+}
+
+.caption-14 {
+    text-align: center;
+    transform: translateX(-3%);
+}
+
+.caption-15 {
+    text-align: center;
+    width: 395px;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.caption-16 {
+    transform: translateX(8.5%);
+    width: 540px;
+}
+
+.caption-17 {
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* CONTACT PAGE */
 
@@ -331,8 +406,6 @@ hr {
     border-radius: 5px;
 }
 
-
-
 .contact-title {
     padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -341,14 +414,16 @@ hr {
     text-align: center;
 }
 
-
-
 #fname {
     height: 2rem;
     width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-top: 0px;
 }
+
+
+
 
 #email {
     height: 2rem;
@@ -470,6 +545,12 @@ nav {
     padding-left: 10px;
     margin-left: 10px;
     margin-top: 10px;
+    
+}
+
+.logo-style {
+    text-decoration: none;
+    color: inherit;
 }
 
 
