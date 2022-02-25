@@ -11,7 +11,7 @@ const prevButton = document.querySelector('.carousel__button--left');
 //Each slide size is the same width as the first [0] slide
 
 
-// ARRANGE SLIDES NEXT TO EACH OTHER 
+// ARRANGE SLIDES NEXT TO EACH OTHER
 
 // slides[0].style.left = slideWidth * 0 + 'px';
 // slides[1].style.left = slideWidth * 1 + 'px';
@@ -23,7 +23,7 @@ console.log('init');
     const setSlidePosition = (slide, index) => {
         slide.style.left = slideWidth * index + 'px';
     };
-    //function to set slide position 
+    //function to set slide position
 
     slides.forEach(setSlidePosition);
     // loop so it applies to all slides automatically
@@ -59,22 +59,21 @@ const hideShowArrows = (slides, prevButton, nextButton, targetIndex) {
 
 prevButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
-    const prevSlide = currentSlide.previousElementSibling;
-    
-    // let prevSlide;
-    // if (currentSlide.previousElementSibling == null) {
-    //     prevSlide = slides[slides.length-1];
-    // } else {
-    //     prevSlide = currentSlide.prevElementSibling
-    // }
-    
+
+    let prevSlide;
+    if (currentSlide.previousElementSibling == null) {
+        prevSlide = slides[slides.length-1];
+    } else {
+        prevSlide = currentSlide.previousElementSibling;
+    }
+
     /*
     const currentDot = dotsNav.querySelector('.current-slide');
     const prevDot = currentDot.previousElementSibling;
     */
     moveToSlide(track, currentSlide, prevSlide);
     //updateDots(currentDot, prevDot);
-});    
+});
 
 
 
@@ -82,6 +81,7 @@ prevButton.addEventListener('click', e => {
 // WHEN I CLICK RIGHT, MOVE SLIDES RIGHT
 nextButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
+
     let nextSlide;
     if (currentSlide.nextElementSibling == null) {
         nextSlide = slides[0];
@@ -103,7 +103,7 @@ init();
 
 
 
-// When I click the nav indicators, move to that slide 
+// When I click the nav indicators, move to that slide
 
 /*
 dotsNav.addEventListener('click', e => {
@@ -114,14 +114,14 @@ dotsNav.addEventListener('click', e => {
 
     const currentSlide = track.querySelector('.current-slide');
     const currentDot = dotsNav.querySelector('.currentSlide');
-    const targetIndex = dots.findIndex(dot => dot === targetDot) 
+    const targetIndex = dots.findIndex(dot => dot === targetDot)
     const targetSlide = slides[targetIndex];
 
     moveToSlide(track, currentSlide, targetSlide);
     updateDots(currentDot, targetDot);
-    hideShowArrows(slides, prevButton, nextButton, targetIndex); 
-   
-   
+    hideShowArrows(slides, prevButton, nextButton, targetIndex);
+
+
 })
 
 */
