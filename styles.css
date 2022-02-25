@@ -123,8 +123,6 @@ body {
     z-index: -1;
 }
 
-
-
 .carousel__track-container {
     height: 100%;
     position: relative;
@@ -149,6 +147,7 @@ body {
 
 .carousel__button {
     position: absolute;
+    z-index: 2;
     top: 50%;
     transform: translateY(-50%);
     background: transparent;
@@ -161,11 +160,13 @@ body {
 .carousel__button--left {
     left: -60px;
     cursor: w-resize;
+    z-index: 2;
 }
 
 .carousel__button--right {
     right: -60px;
     cursor: e-resize;
+    z-index: 2;
 }
 
 .carousel__button img {
@@ -467,6 +468,7 @@ nav {
     top: 10.5px;
     color: grey;
     padding-left: 10px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
@@ -478,7 +480,7 @@ nav {
     padding-right: 30px;
     margin-top: -12px;
     margin-bottom: 0px;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 /* EACH MAIN HEADING */
@@ -486,9 +488,10 @@ nav .nav-wrapper ul li {
     float: left;
     list-style: none;
     position: relative;
-    margin-left: 80px;
+    z-index: 3;
+    margin-left: 0px;
     height: 75px;
-    width: 100px;
+    width: 75px;
 }
 
 /* LINKS WITHIN EACH HEADING */
@@ -522,14 +525,16 @@ nav .nav-wrapper ul li a {
 .IG-dropdown {
     display: none;   
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     padding-left: 0px;
     padding-right: 5px;
-    padding-top: 125px;
+    padding-top: 174px;
     background-color: rgb(99, 98, 98);
     /* border-radius: 0px 0px 4px 4px; */
     width: 150px;
-    height: 200px;
+    height: 250px;
+    margin-top: -55px;
+    margin-left: -102px;
 }
 
 .pages-dropdown {
@@ -537,11 +542,14 @@ nav .nav-wrapper ul li a {
     position: absolute;
     padding-left: 0px;
     padding-right: 5px;
-    padding-top: 30px;
+    padding-top: 78px;
     background-color: rgb(99, 98, 98);
     /* border-radius: 0px 0px 4px 4px; */
     width: 150px;
-    height: 200px;
+    height: 250px;
+    margin-top: -55px;
+    margin-left: -99px;
+
 }
 
 /* HOVER TO ACTIVATE THE DROPDOWN */
