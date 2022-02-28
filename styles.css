@@ -154,7 +154,7 @@ body {
     border: 0;
     width: 30vw;
     height: 400px;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .carousel__button--left {
@@ -516,7 +516,7 @@ input[type=submit] {
 
 .sticky-header {
     position: sticky;
-    z-index: 2;
+    z-index: 3;
     top: 0;
 }
 
