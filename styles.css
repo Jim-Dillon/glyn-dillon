@@ -462,6 +462,11 @@ input[type=submit] {
     padding: 12px 20px;
 }
 
+input[type=submit]:hover {
+    color: white;
+    background-color: grey;
+}
+
 /* THANK YOU MESSAGE */
 
 
