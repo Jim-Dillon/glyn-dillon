@@ -40,15 +40,15 @@ body {
 
 
 
-/* BIO */
+/* BIOG */
 
 .main-content-section {
     max-width: 1312px;
-    height: 730px;
+    height: 740px;
 }
 
 .bio-content-container {
-    max-width: 600px;
+    max-width: 590px;
     float: right;
     padding: 20px 36px;
 
@@ -58,18 +58,19 @@ body {
     color: grey;
     line-height: 1.3;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 350;
+    font-size: 14px;
 }
 
 .bio-image-container {
     max-width: 600px;
     height: 300px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .bio-image {
     width: 525px;
-    height: 300px;
+    height: 330px;
 
 }
 
@@ -82,25 +83,26 @@ body {
 }
 
 .exhib-words-container {
-    max-width: 800px;
+    max-width: 700px;
     padding: 30px 90px 0px 25px;
 }
 
 .exhib-words {
     color: grey;
-    line-height: 1.3;
+    line-height: 1.4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300px;
+    font-size: 14px;
 }
 
 .exhib-image-container {
     max-width: 600px;
     height: 800px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .exhib-image {
-    width: 500px;
+    width: 550px;
     height: 800px;
 }
 
