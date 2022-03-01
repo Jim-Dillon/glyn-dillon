@@ -123,6 +123,8 @@ body {
     object-fit: scale-down;
     position: relative;
     z-index: -1;
+    height: 500px;
+    margin-top: 20px;
 }
 
 .carousel__track-container {
@@ -176,7 +178,7 @@ body {
 }
 
 /* ART PIECES */
-
+/*
 .image-1 {
     height: 500px;
     margin-top: 50px;
@@ -260,7 +262,7 @@ body {
 .image-17 {
     height: 350px;
     margin-top: 125px;
-}
+} */
 
 
 /*
@@ -288,6 +290,9 @@ body {
 
 .art-footer-section {
     background-color: black;
+    margin-top: -60px;
+    position: relative;
+    z-index: -1;
 }
 
 .art-footer-container {
@@ -299,9 +304,12 @@ body {
 .art-caption {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    color: black;
+    color: white;
     margin-bottom: -50px;
     height: 2rem;
+    position: relative;
+    z-index: 500;
+    top: 30px;
 }
 
 /* ART CAPTIONS */
@@ -381,12 +389,15 @@ body {
 }
 
 /* CONTACT PAGE */
+.contact-form__field {
+    width: 50%;
+    margin-bottom: 1rem;
+    float: right;
+}
 
-hr {
-    background: none;
-    border: none;
-    width: 300px;
-
+.contact-form label {
+    display: block;
+    margin-bottom: 3px;
 }
 
 .contact-wrapper {
@@ -418,40 +429,40 @@ hr {
 
 #fname {
     height: 2rem;
-    width: 300px;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 0px;
+    margin-right: 10%;
 }
-
-
-
 
 #email {
     height: 2rem;
-    width: 300px;
+    width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 #phone-number {
     height: 2rem;
-    width: 225px;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 #query-heading {
     height: 2rem;
-    width: 224px;
+    width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-right: 10%;
 }
 
 #subject {
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top: -10px;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 input[type=submit] {
@@ -460,6 +471,7 @@ input[type=submit] {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding: 12px 20px;
+    display: block
 }
 
 input[type=submit]:hover {
@@ -523,7 +535,11 @@ input[type=submit]:hover {
 
 .sticky-header {
     position: sticky;
+<<<<<<< HEAD
     z-index: 3;
+=======
+    z-index: 5;
+>>>>>>> dab83ea6e0ab5c2f2255c92bd5ebfe49f1c920f3
     top: 0;
 }
 
