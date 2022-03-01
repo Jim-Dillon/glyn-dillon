@@ -128,9 +128,10 @@ body {
 }
 
 .carousel__track-container {
-    height: 100%;
+    height: 108%;
     position: relative;
     overflow: hidden;
+    padding-top: 25px;
 }
 
 .carousel__track {
@@ -144,9 +145,10 @@ body {
 
 .carousel__slide {
     position: absolute;
-    top: 0;
+    top: -3px;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    line-height: 1.2;
 }
 
 .carousel__button {
@@ -290,14 +292,14 @@ body {
 
 .art-footer-section {
     background-color: black;
-    margin-top: -60px;
+    margin-top: -10px;
     position: relative;
     z-index: -1;
 }
 
 .art-footer-container {
     max-width: 1312px;
-    height: 70px;
+    height: 84px;
     bottom: 0px;
 }
 
@@ -306,14 +308,15 @@ body {
     font-size: 12px;
     color: white;
     margin-bottom: -50px;
-    height: 2rem;
+    height: 3rem;
     position: relative;
     z-index: 500;
-    top: 30px;
+    top: 60px;
+    text-align: center;
 }
 
 /* ART CAPTIONS */
-
+/* 
 .caption-1 {
     text-align: center;
 }
@@ -370,23 +373,27 @@ body {
     text-align: center;
     transform: translateX(-3%);
 }
-
+/*  */
 .caption-15 {
-    text-align: center;
-    width: 395px;
-    height: 2rem;
-    margin: 0 auto;
-}
 
+    width: 420px;
+    height: 3rem;
+    margin: 0 auto;
+    line-height: 1.3;
+    
+}
+/*  */
 .caption-16 {
-    transform: translateX(8.5%);
-    width: 540px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    
 }
 
-.caption-17 {
+/* .caption-17 {
     text-align: center;
     margin: 0 auto;
-}
+} */
 
 /* CONTACT PAGE */
 .contact-form__field {
@@ -535,11 +542,7 @@ input[type=submit]:hover {
 
 .sticky-header {
     position: sticky;
-<<<<<<< HEAD
-    z-index: 3;
-=======
     z-index: 5;
->>>>>>> dab83ea6e0ab5c2f2255c92bd5ebfe49f1c920f3
     top: 0;
 }
 
