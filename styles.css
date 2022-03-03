@@ -424,11 +424,11 @@ body {
 }
 
 .contact-wrapper {
-    max-width: 800px;
-    height: 800px;
+    max-width: 760px;
+    height: 600px;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 75px;
+    padding-top: 20px;
+    /* padding-bottom: 75px; */
 }
 
 .contact-form {
@@ -443,7 +443,7 @@ body {
 }
 
 .contact-title {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-family: 'adobe-heiti-std', sans-serif;
     font-weight: 300;
     color: grey;
@@ -452,6 +452,11 @@ body {
 
 hr {
     border: none;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 #fname {
@@ -586,8 +591,9 @@ nav {
 /* ORIGINAL LOGO */
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'adobe-heiti-std', sans-serif;
+    font-weight: 300;
+    font-size: 38px;
     float: left;
     height: 60px;
     position: absolute;
@@ -619,7 +625,7 @@ nav {
 }
 
 .logo-image {
-    width: 240px;
+    width: 230px;
     height: 55px;
 }
 
