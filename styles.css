@@ -593,7 +593,7 @@ nav {
 }
 
 .nav-wrapper {
-    max-width: 1300px;
+    max-width: 1440px;
     height: 81px;
     margin: 0 auto;
     padding: 1rem 0rem 65px;
@@ -638,6 +638,7 @@ nav {
 .logo-image {
     width: 230px;
     height: 55px;
+    margin-left: 20px;
 }
 
 /* MAIN HEADINGS GROUP*/
@@ -768,7 +769,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:451px) {
     
 /* NAV BAR */
 
@@ -905,6 +906,40 @@ nav .nav-wrapper ul li ul li a:hover {
     .home-page-image {
         margin-top: -4px;
     }
+
+    .stickman-container {
+        width: 375px;
+        height: 312px;
+        background-color: black;
+        
+    }
+
+    .stickman {
+        height: 200px;
+        padding-left: 168px;
+        padding-top: 140px;
+    }
+
+    .stickman-image {
+        width: 30px;
+        height: 55px;    
+    }
+
+
+    .homepage-words-container {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        line-height: 1;
+    }
+
+
+    .stickman-words {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 11px;
+    }
     
 /* ARTWORK PAGE */
 
@@ -913,3 +948,9 @@ nav .nav-wrapper ul li ul li a:hover {
     }
 
   }
+
+  @media only screen and (min-width:450px) {
+      .stickman-container, .stickman, .stickman-image, .homepage-words-container, .homepage-words {
+          height: 0px;
+      }
+  } 
