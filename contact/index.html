@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Glyn Dillon</title>
     <link rel="stylesheet" href="../styles.css">
+    
 </head>
 <body>
 
@@ -52,30 +53,30 @@
 
         
 <script type="text/javascript">var submitted=false;</script>
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='www.google.com';}"></iframe>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeCNnIcinjXvgIVO7mxeleSqnO2-Ekm_XqHQdaTcoJ2kZFAdg/formResponse" method="POST" class="contact-form">
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='../thankyou';}"></iframe>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeCNnIcinjXvgIVO7mxeleSqnO2-Ekm_XqHQdaTcoJ2kZFAdg/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true" class="contact-form">
 
             <div class="contact-form__field">
-                <label for="fname">Name</label>
+                <label for="fname">name</label>
                 <input type="text" id="fname" name="entry.650049130">
             </div>
 
             <div class="contact-form__field">
-                <label for="email">Email</label>
+                <label for="email">email</label>
                 <input type="text" id="email" name="entry.911141656">
             </div>
 
             <div class="contact-form__field">
-                <label for="phone-number">Phone Number</label>
+                <label for="phone-number">phone no. (optional)</label>
                 <input type="text" id="phone-number" name="entry.1363253972">
             </div>
 
             <div class="contact-form__field">
-                <label for="query-heading">Query Heading</label>
+                <label for="query-heading">subject</label>
                 <input type="text" id="query-heading" name="entry.295865877">
             </div>
 
-            <label for="subject">Subject</label>
+            <label for="subject">message</label>
             <textarea name="entry.1332369043" id="subject" cols="70" rows="10"></textarea>
 
             <input type="submit" value="Send message" >
