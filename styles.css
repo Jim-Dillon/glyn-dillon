@@ -585,7 +585,7 @@ input[type=submit]:hover {
     clear:left;
     font:14px;
     font-family: 'Montserrat', sans-serif;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     /* margin-top: 200px; */
     /* margin-bottom: 60px; */
@@ -880,7 +880,7 @@ nav .nav-wrapper ul li ul li {
 
     .news-section {
         padding-top: 220px;
-        height: 550px;
+        height: 580px;
         
     }
 
@@ -889,8 +889,8 @@ nav .nav-wrapper ul li ul li {
     }
 
     .referralBadge {
-        width: 50px;
-        padding-top: 110px;
+        width: 100px;
+        padding-top: 150px;
     }
 
     #mce-EMAIL {
