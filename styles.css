@@ -879,7 +879,8 @@ nav .nav-wrapper ul li ul li {
 
     .news-section {
         padding-top: 200px;
-        height: 527px;
+        height: 570px;
+        
     }
 
     #mc_embed_signup {
@@ -972,8 +973,16 @@ nav .nav-wrapper ul li ul li {
         margin-top: -4px;
     }
 
+    .nocopy-image-container {
+        margin-bottom: -1px;
+    }
+
     .nocopy-image {
-        margin-top: -4px;
+        margin-top: -1px;  
+    }
+
+    .stickman-container {
+        margin-top: -1px;
     }
 
     .stickman-container {
