@@ -824,6 +824,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
     nav, .nav-wrapper, footer {
         height: 70px;
+        top: 0;
 
     }
 
@@ -870,11 +871,15 @@ nav .nav-wrapper ul li ul li {
     }
 
     .contact-form {
-        padding-top: 80px;
+        padding-top: 110px;
         padding-bottom: 30px;
         border-radius: 0px;
         height: 610px;
     }
+
+    
+
+
 
 /* NEWS PAGE */
 
@@ -907,7 +912,7 @@ nav .nav-wrapper ul li ul li {
     .exhib-words-container {
         padding-right: 25px;
         padding-top: 20px;
-        height: 840px;
+        height: 830px;
         
     }
 
@@ -920,7 +925,7 @@ nav .nav-wrapper ul li ul li {
         padding-right: 25px;
         /* margin-bottom: 25px; */
         height: 495px;
-        margin-top: -20px;
+        margin-top: -40px;
     }
 
     .exhib-image {
