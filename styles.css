@@ -866,21 +866,21 @@ nav .nav-wrapper ul li ul li {
 
     .contact-wrapper {
         padding-top: 0px;
-        height: 620px;
+        height: 610px;
     }
 
     .contact-form {
         padding-top: 80px;
         padding-bottom: 30px;
         border-radius: 0px;
-        height: 620px;
+        height: 610px;
     }
 
 /* NEWS PAGE */
 
     .news-section {
         padding-top: 220px;
-        height: 590px;
+        height: 585px;
         
     }
 
@@ -908,6 +908,7 @@ nav .nav-wrapper ul li ul li {
         padding-right: 25px;
         padding-top: 20px;
         height: 840px;
+        
     }
 
     .exhib-words {
@@ -919,6 +920,7 @@ nav .nav-wrapper ul li ul li {
         padding-right: 25px;
         /* margin-bottom: 25px; */
         height: 495px;
+        margin-top: -20px;
     }
 
     .exhib-image {
