@@ -130,7 +130,7 @@ body {
 
 .exhib-words-container {
     max-width: 700px;
-    height: 604px;
+    height: 600px;
     padding: 30px 90px 0px 25px;
 }
 
@@ -1084,6 +1084,35 @@ nav .nav-wrapper ul li ul li a:hover {
         .home-sticky-footer, .home-footer-section, .home-footer-container {
             height: 0px;
         }
-
        
+  }
+
+  @media screen and (max-width: 1048px) and (min-width: 950px) {
+        .exhib-words-container {
+            padding-right: 30px;
+        }
+  }
+
+  @media screen and (max-width: 949px) and (min-width: 859px) {
+        .exhib-words-container {
+            padding-right: 10px;
+        }
+
+        .exhib-image-container {
+            padding-left: 50px;
+        }
+  }
+
+  @media screen and (max-width: 858px) and (min-width: 750px) {
+        .exhib-words-container {
+        padding-right: 10px;
+        }
+
+        .exhib-image-container {
+            padding-left: 30px;
+        }
+
+        .exhib-words {
+            font-size: 13px;
+        }
   }
