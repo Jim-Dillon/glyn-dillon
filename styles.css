@@ -1036,7 +1036,11 @@ nav .nav-wrapper ul li ul li {
 
     .carousel {
        width: 80%;
-    }    
+    }  
+    
+    .carousel__button--right {
+        right: -35px;
+    }
 
   }
 
