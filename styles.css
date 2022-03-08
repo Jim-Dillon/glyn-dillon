@@ -1103,7 +1103,7 @@ nav .nav-wrapper ul li ul li a:hover {
         }
   }
 
-  @media screen and (max-width: 858px) and (min-width: 750px) {
+  @media screen and (max-width: 858px) and (min-width: 796px) {
         .exhib-words-container {
         padding-right: 10px;
         }
