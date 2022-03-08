@@ -55,7 +55,6 @@ body {
     bottom: 0;
 }
 
-
 .footer-section {
     background-color: black;
 }
@@ -65,6 +64,22 @@ body {
     height: 70px;
 }
 
+/* HOME FOOTER  */
+
+.home-sticky-footer {
+    position: sticky;
+    z-index: 5;
+    bottom: 0;
+}
+
+.home-footer-section {
+    background-color: black;
+}
+
+.home-footer-container {
+    max-width: 1312px;
+    height: 70px;
+}
 
 
 /* BIOG */
@@ -831,29 +846,29 @@ nav .nav-wrapper ul li ul li a:hover {
 
 /* DROPDOWN */
 
-.pages-dropdown, .IG-dropdown {
-    height: 350px;
+    .pages-dropdown, .IG-dropdown {
+        height: 350px;
 
-}
+    }
 
-.pages-dropdown {
-    width: 170px;
-    padding-right: 20px;
-    margin-left: -93px;
-    padding-top: 99px;
-    margin-top: 31px;
-}
+    .pages-dropdown {
+        width: 170px;
+        padding-right: 20px;
+        margin-left: -93px;
+        padding-top: 99px;
+        margin-top: 31px;
+    }
 
-.IG-dropdown {
-    padding-top: 250px;
-    width: 170px;
-    margin-top: 33px;
-}
+    .IG-dropdown {
+        padding-top: 250px;
+        width: 170px;
+        margin-top: 33px;
+    }
 
-nav .nav-wrapper ul li ul li {
-    height: 50px;
-    width: 170px;
-}
+    nav .nav-wrapper ul li ul li {
+        height: 50px;
+        width: 170px;
+    }
 
 
 /* FOOTER */
@@ -918,6 +933,7 @@ nav .nav-wrapper ul li ul li {
 
     .exhib-words {
         font-size: 16px;
+        font-family: 'Poppins', sans-serif;
     }
 
     .exhib-image-container {
@@ -947,8 +963,6 @@ nav .nav-wrapper ul li ul li {
         padding-right: 25px;
         padding-left: 25px;
         padding-bottom: 25px;
-
-
     }
 
     .bio-content-words {
@@ -981,13 +995,11 @@ nav .nav-wrapper ul li ul li {
     }
 
     .nocopy-image-container {
-        margin-bottom: -1px;
-        
+        margin-bottom: -1px;  
     }
 
     .nocopy-image {
         margin-top: -10px;
-         
     }
 
     .stickman-container {
@@ -998,7 +1010,6 @@ nav .nav-wrapper ul li ul li {
         width: 100%;
         height: 325px;
         background-color: black;
-
     }
 
     .stickman {
@@ -1006,7 +1017,6 @@ nav .nav-wrapper ul li ul li {
         width: 36px;
         margin: 0 auto;
         padding-top: 170px;
-
     }
 
     .stickman-image {
@@ -1052,4 +1062,28 @@ nav .nav-wrapper ul li ul li {
       .nocopy-image-container, .nocopy-image {
           height: 0px;
       }
+  }
+
+  @media screen and (max-width: 1048px) and (min-width: 451px) {
+        .blackspace-container {
+            background-color: black;
+            /* height: 341px; */
+            width: 100%;
+        }
+
+        .stickman-container, .stickman, .stickman-image, .homepage-words-container, .homepage-words, .homepage-copy {
+            height: 0px;
+        }
+
+        .homepage-body {
+            background-color: black;
+            display: block;
+            height: 100vh;
+        }
+
+        .home-sticky-footer, .home-footer-section, .home-footer-container {
+            height: 0px;
+        }
+
+       
   }
