@@ -10,7 +10,7 @@ const init = () => {
 
     // Sets slide position
     const setSlidePosition = (slide, index) => {
-        slide.style.left = slideWidth * index + 'px';
+        slide.style.left = (slideWidth + 10) * index + 'px';
     };
 
     slides.forEach(setSlidePosition);
