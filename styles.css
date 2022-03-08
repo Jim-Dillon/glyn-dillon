@@ -804,6 +804,13 @@ nav .nav-wrapper ul li ul li a:hover {
 }
 
 
+
+
+
+
+
+
+
 /* MOBILE DESIGN  */
 
 
@@ -941,7 +948,7 @@ nav .nav-wrapper ul li ul li a:hover {
         padding-right: 25px;
         /* margin-bottom: 25px; */
         height: 495px;
-        margin-top: -40px;
+        /* margin-top: -40px; */
     }
 
     .exhib-image {
@@ -1045,13 +1052,13 @@ nav .nav-wrapper ul li ul li a:hover {
 
 /* ARTWORK PAGE */
 
-    .carousel {
-       width: 80%;
-    }  
-    
-    .carousel__button--right {
-        right: -35px;
-    }
+        .carousel {
+        width: 80%;
+        }  
+        
+        .carousel__button--right {
+            right: -35px;
+        }
 
   }
 
@@ -1131,6 +1138,32 @@ nav .nav-wrapper ul li ul li a:hover {
             font-size: 12px;
         }
   }
+
+  @media screen and (max-width: 720px) and (min-width: 451px) {
+
+        .exhib-content-section {
+            display: initial;
+        }
+
+        .exhib-words-container {
+            padding-right: 15px;
+            height: 520px;
+        }
+
+        .exhib-image-container {
+            padding-left: 20px;
+            padding-right: 10px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            width: 450px;
+            align-items: center;
+        }
+
+        .exhib-words {
+            font-size: 14px;
+        }     
+  }
+
 
   @media screen and (max-width: 612px) and (min-width: 555px) {
         .bio-content-words {
