@@ -1116,3 +1116,17 @@ nav .nav-wrapper ul li ul li a:hover {
             font-size: 13px;
         }
   }
+
+  @media screen and (max-width: 795px) and (min-width: 720px) {
+        .exhib-words-container {
+            padding-right: 0px;
+        }
+
+        .exhib-image-container {
+            padding-left: 20px;
+        }
+
+        .exhib-words {
+            font-size: 12px;
+        }
+  }
