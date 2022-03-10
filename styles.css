@@ -814,8 +814,6 @@ nav .nav-wrapper ul li ul li a:hover {
 /* MOBILE DESIGN  */
 
 
-
-
 @media only screen and (max-width:450px) {
 
 /* NAV BAR */
@@ -934,7 +932,8 @@ nav .nav-wrapper ul li ul li a:hover {
     .exhib-words-container {
         padding-right: 25px;
         padding-top: 20px;
-        height: 830px;
+        /* HEIGHT CHANGE WHEN ADD TEXT BACK IN */
+        height: 200px;
         
     }
 
@@ -1062,6 +1061,11 @@ nav .nav-wrapper ul li ul li a:hover {
 
   }
 
+
+  /* ANYTHING BIGGER THAN MOBILE */
+
+  /* HOME PAGE */
+
   @media only screen and (min-width:451px) {
       .stickman-container, .stickman, .stickman-image, .homepage-words-container, .homepage-words {
           height: 0px;
@@ -1091,9 +1095,11 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .home-sticky-footer, .home-footer-section, .home-footer-container {
             height: 0px;
-        }
-       
+        } 
   }
+
+
+    /* EXHIB PAGE - BETWEEN DESKTOP MOBILE */
 
   @media screen and (max-width: 1048px) and (min-width: 950px) {
         .exhib-words-container {
@@ -1142,12 +1148,17 @@ nav .nav-wrapper ul li ul li a:hover {
   @media screen and (max-width: 720px) and (min-width: 451px) {
 
         .exhib-content-section {
-            display: initial;
+            display: block;
+            height: 780px;
+            width: 450px;
+            margin: 0 auto;
         }
 
         .exhib-words-container {
             padding-right: 15px;
-            height: 520px;
+            /* HEIGHT CHANGE WHEN ADD TEXT BACK IN */
+            height: 150px;
+            width: 440px;
         }
 
         .exhib-image-container {
