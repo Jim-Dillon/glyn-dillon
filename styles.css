@@ -1057,7 +1057,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
     /* HOME PAGE */
 
-  @media only screen and (min-width:451px) {
+  @media only screen and (min-width: 451px) {
       .stickman-container, .stickman, .stickman-image, .homepage-words-container, .homepage-words {
           height: 0px;
       }
@@ -1067,7 +1067,85 @@ nav .nav-wrapper ul li ul li a:hover {
       }
   }
 
-  @media screen and (max-width: 1048px) and (min-width: 451px) {
+  @media only screen and (min-width: 1049px) {
+      .homepage-copy {
+          height: 0px;
+
+      }
+  }
+
+
+  @media screen and (max-width: 1950px) and (min-width: 1445px) {
+    .homepage-body {
+        background-color: black;
+    }
+
+    .home-sticky-footer, .home-footer-section, .home-footer-container {
+        height: 178px; 
+    }  
+}
+
+
+  @media screen and (max-width: 1444px) and (min-width: 1049px) {
+    .homepage-body {
+        background-color: black;  
+    } 
+}  
+
+
+  @media screen and (max-width: 1444px) and (min-width: 1351px) {
+        .home-sticky-footer, .home-footer-section, .home-footer-container {
+        height: 70px;
+        position: sticky;
+        } 
+
+     .blackspace-container {
+        height: 157px;
+        } 
+
+  }
+
+
+  @media screen and (max-width: 1350px) and (min-width: 1251px) { 
+        .home-sticky-footer, .home-footer-section, .home-footer-container {
+            height: 70px;
+            position: sticky;
+        } 
+
+        .blackspace-container {
+            height: 214px;
+        }  
+}   
+
+
+  @media screen and (max-width: 1250px) and (min-width: 1151px) {
+        .home-sticky-footer, .home-footer-section, .home-footer-container {
+            height: 70px;
+            position: sticky;
+        } 
+
+        .blackspace-container {
+            height: 272px;
+        } 
+        
+    }
+
+
+  @media screen and (max-width: 1150px) and (min-width: 1050px) {
+        .home-sticky-footer, .home-footer-section, .home-footer-container {
+            height: 70px;
+            position: sticky;
+        } 
+
+        .blackspace-container {
+            height: 330px;
+        } 
+    }
+
+  
+
+
+  @media screen and (max-width: 1049px) and (min-width: 451px) {
         .blackspace-container {
             background-color: black;
             /* height: 341px; */
@@ -1089,15 +1167,7 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
   }
 
-  @media screen and (max-width: 2000px) and (min-width: 1450px) {
-        .homepage-body {
-            background-color: black;
-        }
-
-        .home-sticky-footer, .home-footer-section, .home-footer-container {
-            height: 160px; 
-        }  
-  }  
+    
 
 
     /* EXHIB PAGE */
