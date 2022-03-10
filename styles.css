@@ -816,7 +816,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
 @media only screen and (max-width:450px) {
 
-/* NAV BAR */
+    /* NAV BAR */
 
     .logo-image, .logo-container, .logo-1 {
       width: 150px;
@@ -849,7 +849,7 @@ nav .nav-wrapper ul li ul li a:hover {
     }
 
 
-/* DROPDOWN */
+    /* DROPDOWN */
 
     .pages-dropdown, .IG-dropdown {
         height: 350px;
@@ -876,14 +876,14 @@ nav .nav-wrapper ul li ul li a:hover {
     }
 
 
-/* FOOTER */
+    /* FOOTER */
 
     .sticky-footer {
         position: static;
     }
 
 
-/* CONTACT PAGE */
+    /* CONTACT PAGE */
 
     .contact-wrapper {
         padding-top: 0px;
@@ -897,16 +897,11 @@ nav .nav-wrapper ul li ul li a:hover {
         height: 600px;
     }
 
-    
-
-
-
-/* NEWS PAGE */
+    /* NEWS PAGE */
 
     .news-section {
         padding-top: 220px;
-        height: 585px;
-        
+        height: 585px;  
     }
 
     #mc_embed_signup {
@@ -920,10 +915,9 @@ nav .nav-wrapper ul li ul li a:hover {
 
     #mce-EMAIL {
         margin-bottom: 10px;
-
     }
 
-/* EXHIBITIONS */
+    /* EXHIBITIONS */
 
     .exhib-content-section {
         display: initial;
@@ -933,8 +927,7 @@ nav .nav-wrapper ul li ul li a:hover {
         padding-right: 25px;
         padding-top: 20px;
         /* HEIGHT CHANGE WHEN ADD TEXT BACK IN */
-        height: 200px;
-        
+        height: 200px; 
     }
 
     .exhib-words {
@@ -969,7 +962,6 @@ nav .nav-wrapper ul li ul li a:hover {
         padding-right: 25px;
         padding-left: 25px;
         padding-bottom: 25px;
-        
     }
 
     .bio-content-words {
@@ -1058,13 +1050,12 @@ nav .nav-wrapper ul li ul li a:hover {
         .carousel__button--right {
             right: -35px;
         }
-
   }
 
 
-  /* ANYTHING BIGGER THAN MOBILE */
+/* ANYTHING BIGGER THAN MOBILE */
 
-  /* HOME PAGE */
+    /* HOME PAGE */
 
   @media only screen and (min-width:451px) {
       .stickman-container, .stickman, .stickman-image, .homepage-words-container, .homepage-words {
@@ -1098,8 +1089,18 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
   }
 
+  @media screen and (max-width: 2000px) and (min-width: 1450px) {
+        .homepage-body {
+            background-color: black;
+        }
 
-    /* EXHIB PAGE - BETWEEN DESKTOP MOBILE */
+        .home-sticky-footer, .home-footer-section, .home-footer-container {
+            height: 160px; 
+        }  
+  }  
+
+
+    /* EXHIB PAGE */
 
   @media screen and (max-width: 1048px) and (min-width: 950px) {
         .exhib-words-container {
@@ -1176,6 +1177,8 @@ nav .nav-wrapper ul li ul li a:hover {
   }
 
 
+    /* BIO PAGE */
+
   @media screen and (max-width: 612px) and (min-width: 555px) {
         .bio-content-words {
             font-size: 12px;
@@ -1209,8 +1212,139 @@ nav .nav-wrapper ul li ul li a:hover {
         }
   }
 
+
+    /* NEWS PAGE */
+
   @media screen and (max-width: 950px) and (min-width: 769px) {
         #mc_embed_signup {
             padding-top: 200px;
         }
   }
+
+
+
+/* BIGGER THAN MACBOOK - BY HEIGHT */
+
+    /* MAC WITHOUT DOCK */
+
+    @media screen and (max-height: 800px) and (min-height: 752px) {
+
+    /* ARTWORK */
+
+        .art-caption {
+            color: white;
+        }
+
+        .artwork-body {
+            height: 734px;
+        }
+
+        .carousel {
+            height: 660px
+        }
+
+        .carousel__track-container {
+            height: 730px;
+        }
+
+        .carousel__track {
+            height: 999px;
+        }
+
+        .carousel__image {
+            height: 560px;
+        }
+    }
+
+    /* TALLER lAPTOPS */
+
+    @media screen and (max-height: 903px) and (min-height: 801px) {
+
+        /* ARTWORK */
+
+        .art-caption {
+            color: white;
+        }
+
+        .artwork-body {
+            height: 820px;
+        }
+
+        .carousel {
+            height: 745px
+        }
+
+        .carousel__track-container {
+            height: 815px;
+        }
+
+        .carousel__track {
+            height: 1085px;
+        }
+
+        .carousel__image {
+            height: 644px;
+        }
+    }   
+
+    /* BETWEEN LAPTOP AND IMAC */
+
+    @media screen and (max-height: 990px) and (min-height: 904px) {
+
+        /* ARTWORK */
+
+        .art-caption {
+            color: white;
+        }
+
+        .artwork-body {
+            height: 904px;
+        }
+
+        .carousel {
+            height: 829px
+        }
+
+        .carousel__track-container {
+            height: 899px;
+        }
+
+        .carousel__track {
+            height: 1169px;
+        }
+
+        .carousel__image {
+            height: 728px;
+        }
+    }
+
+    /* IMAC */
+
+    @media screen and (max-height: 1081px) and (min-height: 991px) {
+         /* ARTWORK */
+
+         .art-caption {
+            color: white;
+        }
+
+        .artwork-body {
+            height: 1000px;
+        }
+
+        .carousel {
+            height: 925px
+        }
+
+        .carousel__track-container {
+            height: 994px;
+        }
+
+        .carousel__track {
+            height: 1265px;
+        }
+
+        .carousel__image {
+            height: 823px;
+        }
+
+    }
