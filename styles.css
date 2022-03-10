@@ -1075,7 +1075,7 @@ nav .nav-wrapper ul li ul li a:hover {
   }
 
 
-  @media screen and (max-width: 1950px) and (min-width: 1445px) {
+  @media screen and (max-width: 2240px) and (min-width: 1445px) {
     .homepage-body {
         background-color: black;
     }
@@ -1090,6 +1090,10 @@ nav .nav-wrapper ul li ul li a:hover {
     .homepage-body {
         background-color: black;  
     } 
+
+    .blackspace-container {
+        height: 40px;
+    }
 }  
 
 
@@ -1145,6 +1149,7 @@ nav .nav-wrapper ul li ul li a:hover {
   
 
 
+
   @media screen and (max-width: 1049px) and (min-width: 451px) {
         .blackspace-container {
             background-color: black;
@@ -1167,7 +1172,29 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
   }
 
-    
+  /* height */
+
+  @media screen and (max-height: 1170px) and (min-height: 1080px) {
+    .home-sticky-footer, .home-footer-section, .home-footer-container {
+        height: 70px;
+        position: sticky;
+    } 
+
+    .blackspace-container {
+        height: 197px;
+    } 
+  }
+
+  @media screen and (max-height: 1260px) and (min-height: 1171px) {
+    .home-sticky-footer, .home-footer-section, .home-footer-container {
+        height: 70px;
+        position: sticky;
+    }  
+
+    .blackspace-container {
+        height: 285px;
+    } 
+  }
 
 
     /* EXHIB PAGE */
