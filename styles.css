@@ -1080,10 +1080,6 @@ nav .nav-wrapper ul li ul li a:hover {
 
 
   @media screen and (max-width: 2240px) and (min-width: 1445px) {
-    .homepage-body {
-        /* background-color: black; */
-    }
-
     .home-sticky-footer, .home-footer-section, .home-footer-container {
         height: 70px; 
     }  
@@ -1091,9 +1087,9 @@ nav .nav-wrapper ul li ul li a:hover {
 
 
   @media screen and (max-width: 1444px) and (min-width: 1049px) {
-    .homepage-body {
-        background-color: black;  
-    } 
+    /* .homepage-body {
+        /* background-color: black;   */
+    }  */
 
     .blackspace-container {
         /* height: 40px; */
@@ -1146,7 +1142,7 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
 
         .blackspace-container {
-            height: 330px;
+            /* height: 330px; */
         } 
     }
 
