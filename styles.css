@@ -949,14 +949,14 @@ nav .nav-wrapper ul li ul li a:hover {
         height: 470px;
     }
 
-/* THANK YOU */
+    /* THANK YOU */
 
     .thanks-container {
         height: 526px;
         padding-top: 160px;
     }
 
-/* BIO */
+    /* BIO */
 
     .bio-content-container {
         width: 375px;
@@ -984,7 +984,7 @@ nav .nav-wrapper ul li ul li a:hover {
         height: 200px;
     }
 
-/* HOME PAGE */
+    /* HOME PAGE */
 
     .home-image-container, .home-page-image {
         height: 0px;
@@ -1034,7 +1034,6 @@ nav .nav-wrapper ul li ul li a:hover {
         line-height: 1;
     }
 
-
     .stickman-words {
         font-family: 'Poppins', sans-serif;
         color: white;
@@ -1050,7 +1049,7 @@ nav .nav-wrapper ul li ul li a:hover {
         background-color: black;
     }
 
-/* ARTWORK PAGE */
+    /* ARTWORK PAGE */
 
         .carousel {
         width: 80%;
@@ -1095,69 +1094,12 @@ nav .nav-wrapper ul li ul li a:hover {
 }
 
 
-  @media screen and (max-width: 1444px) and (min-width: 1049px) {
-    /* .homepage-body {
-        /* background-color: black;   */
-    }  */
-
-    .blackspace-container {
-        /* height: 40px; */
-    }
-}  
-
-
-  @media screen and (max-width: 1444px) and (min-width: 1351px) {
+  @media screen and (max-width: 1444px) and (min-width: 1050px) {
         .home-sticky-footer, .home-footer-section, .home-footer-container {
         height: 70px;
         position: sticky;
         } 
-
-     .blackspace-container {
-        /* height: 157px; */
-        } 
-
-  }
-
-
-  @media screen and (max-width: 1350px) and (min-width: 1251px) { 
-        .home-sticky-footer, .home-footer-section, .home-footer-container {
-            height: 70px;
-            position: sticky;
-        } 
-
-        .blackspace-container {
-            /* height: 214px; */
-        }  
-}   
-
-
-  @media screen and (max-width: 1250px) and (min-width: 1151px) {
-        .home-sticky-footer, .home-footer-section, .home-footer-container {
-            height: 70px;
-            position: sticky;
-        } 
-
-        .blackspace-container {
-            /* height: 272px; */
-        } 
-        
     }
-
-
-  @media screen and (max-width: 1150px) and (min-width: 1050px) {
-        .home-sticky-footer, .home-footer-section, .home-footer-container {
-            height: 70px;
-            position: sticky;
-        } 
-
-        .blackspace-container {
-            /* height: 330px; */
-        } 
-    }
-
-  
-
-
 
   @media screen and (max-width: 1049px) and (min-width: 451px) {
         .blackspace-container {
@@ -1426,7 +1368,6 @@ nav .nav-wrapper ul li ul li a:hover {
         }
     }
 
-    /* IMAC */
 
     @media screen and (max-height: 1081px) and (min-height: 991px) {
          /* ARTWORK */
@@ -1455,4 +1396,58 @@ nav .nav-wrapper ul li ul li a:hover {
             height: 823px;
         }
 
+    }
+
+    @media screen and (max-height: 1172px) and (min-height: 1082px) {
+        
+        .art-caption {
+            color: white;
+        }
+
+        .artwork-body {
+            height: 1100px;
+        }
+
+        .carousel {
+            height: 1025px
+        }
+
+        .carousel__track-container {
+            height: 1094px;
+        }
+
+        .carousel__track {
+            height: 1365px;
+        }
+
+        .carousel__image {
+            height: 923px;
+        }   
+    }
+
+    @media screen and (max-height: 1260px) and (min-height: 1173px) {
+
+        .art-caption {
+            color: white;
+        }
+
+        .artwork-body {
+            height: 1188px;
+        }
+
+        .carousel {
+            height: 1115px
+        }
+
+        .carousel__track-container {
+            height: 1184px;
+        }
+
+        .carousel__track {
+            height: 1455px;
+        }
+
+        .carousel__image {
+            height: 1013px;
+        }  
     }
