@@ -845,8 +845,9 @@ nav .nav-wrapper ul li ul li a:hover {
     nav, .nav-wrapper, footer {
         height: 70px;
         top: 0;
-
     }
+
+    
 
 
     /* DROPDOWN */
@@ -1039,6 +1040,14 @@ nav .nav-wrapper ul li ul li a:hover {
         color: white;
         font-weight: 400;
         font-size: 11px;
+    }
+
+    .home-sticky-footer, .home-footer-section, .home-footer-container {
+        height: 0px;
+    }
+
+    .homepage-body {
+        background-color: black;
     }
 
 /* ARTWORK PAGE */
