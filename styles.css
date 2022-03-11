@@ -1065,6 +1065,10 @@ nav .nav-wrapper ul li ul li a:hover {
       .nocopy-image-container, .nocopy-image {
           height: 0px;
       }
+
+      .homepage-body {
+        background-color: black;
+    }
   }
 
   @media only screen and (min-width: 1049px) {
@@ -1081,7 +1085,7 @@ nav .nav-wrapper ul li ul li a:hover {
     }
 
     .home-sticky-footer, .home-footer-section, .home-footer-container {
-        height: 178px; 
+        height: 70px; 
     }  
 }
 
@@ -1092,7 +1096,7 @@ nav .nav-wrapper ul li ul li a:hover {
     } 
 
     .blackspace-container {
-        height: 40px;
+        /* height: 40px; */
     }
 }  
 
@@ -1104,7 +1108,7 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
 
      .blackspace-container {
-        height: 157px;
+        /* height: 157px; */
         } 
 
   }
@@ -1117,7 +1121,7 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
 
         .blackspace-container {
-            height: 214px;
+            /* height: 214px; */
         }  
 }   
 
@@ -1129,7 +1133,7 @@ nav .nav-wrapper ul li ul li a:hover {
         } 
 
         .blackspace-container {
-            height: 272px;
+            /* height: 272px; */
         } 
         
     }
@@ -1154,7 +1158,7 @@ nav .nav-wrapper ul li ul li a:hover {
         .blackspace-container {
             background-color: black;
             /* height: 341px; */
-            width: 100%;
+            /* width: 100%; */
         }
 
         .stickman-container, .stickman, .stickman-image, .homepage-words-container, .homepage-words, .homepage-copy {
@@ -1181,7 +1185,7 @@ nav .nav-wrapper ul li ul li a:hover {
     } 
 
     .blackspace-container {
-        height: 197px;
+        /* height: 197px; */
     } 
   }
 
@@ -1192,8 +1196,10 @@ nav .nav-wrapper ul li ul li a:hover {
     }  
 
     .blackspace-container {
-        height: 285px;
+        /* height: 250px; */
     } 
+
+    
   }
 
 
