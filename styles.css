@@ -230,92 +230,8 @@ body {
     width: 12px;
 }
 
-/* ART PIECES */
-/*
-.image-1 {
-    height: 500px;
-    margin-top: 50px;
-}
 
-.image-2 {
-    height: 350px;
-    margin-top: 125px;
-}
 
-.image-3 {
-    height: 400px;
-    margin-top: 100px;
-}
-
-.image-4 {
-    height: 420px;
-    margin-top: 90px;
-}
-
-.image-5 {
-    height: 400px;
-    margin-top: 100px;
-}
-
-.image-6 {
-    height: 420px;
-    margin-top: 90px;
-}
-
-.image-7 {
-    height: 300px;
-    margin-top: 150px;
-}
-
-.image-8 {
-    height: 380px;
-    margin-top: 110px;
-}
-
-.image-9 {
-    height: 470px;
-    margin-top: 65px;
-}
-
-.image-10 {
-    height: 390px;
-    margin-top: 105px;
-}
-
-.image-11 {
-    height: 400px;
-    margin-top: 100px;
-}
-
-.image-12 {
-    height: 450px;
-    margin-top: 75px;
-}
-
-.image-13 {
-    height: 400px;
-    margin-top: 100px;
-}
-
-.image-14 {
-    height: 500px;
-    margin-top: 50px;
-}
-
-.image-15 {
-    height: 525px;
-    margin-top: 37.5px;
-}
-
-.image-16 {
-    height: 425px;
-    margin-top: 87.5px;
-}
-
-.image-17 {
-    height: 350px;
-    margin-top: 125px;
-} */
 
 
 /*
@@ -367,75 +283,17 @@ body {
 }
 
 /* ART CAPTIONS */
-/*
-.caption-1 {
-    text-align: center;
-}
 
-.caption-2 {
-    text-align: center;
-}
-
-.caption-3 {
-    transform: translateX(5%);
-}
-
-.caption-4 {
-    transform: translateX(7.5%);
-}
-
-.caption-5 {
-    transform: translateX(4.5%);
-}
-
-.caption-6 {
-    transform: translateX(7.5%);
-}
-
-.caption-7 {
-    transform: translateX(9%);
-}
-
-.caption-8 {
-    transform: translateX(8%);
-}
-
-.caption-9 {
-    text-align: center;
-}
-
-.caption-10 {
-    transform: translateX(6%);
-}
-
-.caption-11 {
-    transform: translateX(9%);
-}
-
-.caption-12 {
-    text-align: center;
-}
-
-.caption-13 {
-    transform: translateX(9%);
-}
-
-.caption-14 {
-    text-align: center;
-    transform: translateX(-3%);
-}
-/*  */
-.caption-15 {
+.caption-22 {
     @media screen and (max-width: 768px) {
         width: 510px;
     }
     height: 3rem;
     margin: 0 auto;
     line-height: 1.3;
-
 }
-/*  */
-.caption-16 {
+
+.caption-23 {
     @media screen and (max-width: 768px) {
         width: 540px;
     }
@@ -444,10 +302,6 @@ body {
 
 }
 
-/* .caption-17 {
-    text-align: center;
-    margin: 0 auto;
-} */
 
 
 
