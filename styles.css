@@ -1125,6 +1125,18 @@ nav .nav-wrapper ul li ul li a:hover {
         }
   }
 
+    /* EXHIB */
+
+  @media only screen and (min-height: 753px) {
+        .exhib-page-main {
+            background-color: white;
+        }
+
+        .exhib-page-body {
+            background-color: black;
+        }
+  }  
+
 
 
 /* BIGGER THAN MACBOOK - BY HEIGHT */
@@ -1166,9 +1178,18 @@ nav .nav-wrapper ul li ul li a:hover {
             padding-top: 230px;
         }
 
+    /* BIOG */
+
+        .main-content-section {
+            height: 650px;
+            margin: 0 auto;
+        }
+
+        .bio-content-container {
+            height: 620px;
+        }
+
     }
-
-
 
 /* TALLER lAPTOPS */
 
@@ -1206,6 +1227,17 @@ nav .nav-wrapper ul li ul li a:hover {
             height: 753px;
             padding-top: 270px;
         }
+    
+    /* BIOG */
+
+        .main-content-section {
+            height: 748px;
+            margin: 0 auto;
+        }
+
+        .bio-content-container {
+            height: 620px;
+        }    
 
     }   
 
@@ -1245,6 +1277,18 @@ nav .nav-wrapper ul li ul li a:hover {
             height: 835px;
             padding-top: 360px;
         }
+
+    /* BIOG */
+
+        .main-content-section {
+            height: 840px;
+            margin: 0 auto;
+        }
+
+        .bio-content-container {
+            height: 620px;
+        }   
+        
     }
 
 
@@ -1277,12 +1321,22 @@ nav .nav-wrapper ul li ul li a:hover {
 
     /* NEWS */
 
-    
-
         .news-section {
             height: 935px;
             padding-top: 460px;
-        }    
+        } 
+    
+    /* BIOG */
+
+        .main-content-section {
+            height: 929px;
+            margin: 0 auto;
+        }
+
+        .bio-content-container {
+            height: 620px;
+        }      
+        
     }
 
     @media screen and (max-height: 1172px) and (min-height: 1082px) {
@@ -1322,6 +1376,17 @@ nav .nav-wrapper ul li ul li a:hover {
             padding-top: 495px;
         }
 
+    /* BIOG */
+
+        .main-content-section {
+            height: 1020px;
+            margin: 0 auto;
+        }
+
+        .bio-content-container {
+            height: 620px;
+        }      
+
     }
 
     @media screen and (max-height: 1260px) and (min-height: 1173px) {
@@ -1360,5 +1425,16 @@ nav .nav-wrapper ul li ul li a:hover {
             height: 1106px;
             padding-top: 505px;
         }
+
+    /* BIOG */
+
+        .main-content-section {
+            height: 1110px;
+            margin: 0 auto;
+        }
+
+        .bio-content-container {
+            height: 620px;
+        }     
 
     }
