@@ -1158,13 +1158,23 @@ nav .nav-wrapper ul li ul li a:hover {
         .carousel__image {
             height: 560px;
         }
+
+    /* NEWS */
+
+        .news-section {
+            height: 653px;
+            padding-top: 230px;
+        }
+
     }
 
-    /* TALLER lAPTOPS */
+
+
+/* TALLER lAPTOPS */
 
     @media screen and (max-height: 903px) and (min-height: 801px) {
 
-        /* ARTWORK */
+    /* ARTWORK */
 
         .art-caption {
             color: white;
@@ -1189,13 +1199,21 @@ nav .nav-wrapper ul li ul li a:hover {
         .carousel__image {
             height: 644px;
         }
+
+    /* NEWS */
+
+        .news-section {
+            height: 753px;
+            padding-top: 270px;
+        }
+
     }   
 
-    /* BETWEEN LAPTOP AND IMAC */
+/* BETWEEN LAPTOP AND IMAC */
 
     @media screen and (max-height: 990px) and (min-height: 904px) {
 
-        /* ARTWORK */
+    /* ARTWORK */
 
         .art-caption {
             color: white;
@@ -1219,6 +1237,13 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .carousel__image {
             height: 728px;
+        }
+
+    /* NEWS */
+
+        .news-section {
+            height: 835px;
+            padding-top: 360px;
         }
     }
 
@@ -1250,6 +1275,14 @@ nav .nav-wrapper ul li ul li a:hover {
             height: 823px;
         }
 
+    /* NEWS */
+
+    
+
+        .news-section {
+            height: 935px;
+            padding-top: 460px;
+        }    
     }
 
     @media screen and (max-height: 1172px) and (min-height: 1082px) {
@@ -1277,6 +1310,18 @@ nav .nav-wrapper ul li ul li a:hover {
         .carousel__image {
             height: 923px;
         }   
+
+    /* NEWS */
+
+        #mc_embed_signup {
+            padding-top: 280px;
+        }
+
+        .news-section {
+            height: 1020px;
+            padding-top: 495px;
+        }
+
     }
 
     @media screen and (max-height: 1260px) and (min-height: 1173px) {
@@ -1303,5 +1348,17 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .carousel__image {
             height: 1013px;
-        }  
+        } 
+        
+        /* NEWS */
+
+        #mc_embed_signup {
+            padding-top: 370px;
+        }
+
+        .news-section {
+            height: 1106px;
+            padding-top: 505px;
+        }
+
     }
