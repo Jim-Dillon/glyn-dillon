@@ -1189,6 +1189,12 @@ nav .nav-wrapper ul li ul li a:hover {
             height: 620px;
         }
 
+    /* CONTACT */
+
+        .contact-main {
+            height: 655px;
+        }        
+        
     }
 
 /* TALLER lAPTOPS */
@@ -1237,7 +1243,17 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .bio-content-container {
             height: 620px;
+        } 
+        
+    /* CONTACT */
+
+        .contact-main {
+            height: 750px;
         }    
+        
+        .contact-wrapper {
+            padding-top: 115px;
+        }
 
     }   
 
@@ -1288,6 +1304,16 @@ nav .nav-wrapper ul li ul li a:hover {
         .bio-content-container {
             height: 620px;
         }   
+
+    /* CONTACT */
+
+        .contact-main {
+            height: 835px;
+        }  
+
+        .contact-wrapper {
+            padding-top: 165px;
+        }    
         
     }
 
@@ -1335,7 +1361,17 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .bio-content-container {
             height: 620px;
-        }      
+        }   
+        
+    /* CONTACT */
+
+        .contact-main {
+            height: 926px;
+        } 
+
+        .contact-wrapper {
+            padding-top: 200px;
+        } 
         
     }
 
@@ -1385,11 +1421,21 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .bio-content-container {
             height: 620px;
-        }      
+        }   
+
+    /* CONTACT */    
+        
+        .contact-main {
+            height: 1016px;
+        } 
+
+        .contact-wrapper {
+            padding-top: 240px;
+        }
 
     }
 
-    @media screen and (max-height: 1260px) and (min-height: 1173px) {
+    @media screen and (max-height: 1265px) and (min-height: 1173px) {
 
         .art-caption {
             color: white;
@@ -1435,6 +1481,16 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .bio-content-container {
             height: 620px;
-        }     
+        } 
+        
+    /* CONTACT */    
+        
+        .contact-main {
+            height: 1108px;
+        } 
+
+        .contact-wrapper {
+            padding-top: 270px;
+        }
 
     }
