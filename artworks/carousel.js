@@ -10,7 +10,10 @@ const init = () => {
 
     // Sets slide position
     const setSlidePosition = (slide, index) => {
-        slide.style.left = (slideWidth + 10) * index + 'px';
+        slide.style.left = (slideWidth + 100) * index + 'px';
+
+        const currentSlide = track.querySelector('.current-slide');
+        track.style.transform = 'translateX(-' + currentSlide.style.left + ')';
     };
 
     slides.forEach(setSlidePosition);
