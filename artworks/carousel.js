@@ -12,6 +12,7 @@ const init = () => {
     const setSlidePosition = (slide, index) => {
         slide.style.left = (slideWidth + 100) * index + 'px';
 
+        track.style.transition = "none";
         const currentSlide = track.querySelector('.current-slide');
         track.style.transform = 'translateX(-' + currentSlide.style.left + ')';
     };
@@ -22,6 +23,7 @@ const init = () => {
 // Previous button click event handler. Calculate the previous index
 // and move to the slide
 prevButton.addEventListener('click', e => {
+    track.style.transition = "transform 250ms ease-in";
     const currentSlide = track.querySelector('.current-slide');
 
     let prevSlide;
@@ -37,6 +39,7 @@ prevButton.addEventListener('click', e => {
 // Next button click event handler. Calculate the next index
 // and move to the slide
 nextButton.addEventListener('click', e => {
+    track.style.transition = "transform 250ms ease-in";
     const currentSlide = track.querySelector('.current-slide');
 
     let nextSlide;
