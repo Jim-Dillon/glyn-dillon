@@ -920,13 +920,36 @@ nav .nav-wrapper ul li ul li a:hover {
 
     /* ARTWORK PAGE */
 
-        .carousel {
-        width: 80%;
-        }
+    .artwork-body {
+        height: 660px;
+    }
 
-        .carousel__button--right {
-            right: -35px;
-        }
+    .carousel {
+        width: 80%;
+        height: 520px;
+    }
+
+    .carousel__slide {
+        /* height: 615px; */
+    }
+
+    .carousel__button--right {
+        right: -35px;
+    }
+
+    .carousel__track-container {
+        padding-top: 15px;
+        height: 650px
+    }
+
+    .art-footer-section {
+        height: 100px;
+        top: 60px;
+    }
+
+    .art-caption {
+        top: 33px;
+    }
   }
 
 
