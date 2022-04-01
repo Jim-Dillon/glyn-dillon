@@ -797,7 +797,7 @@ nav .nav-wrapper ul li ul li a:hover {
         padding-right: 25px;
         padding-top: 20px;
         /* HEIGHT CHANGE WHEN ADD TEXT BACK IN */
-        height: 160px;
+        height: 971px;
     }
 
     .exhib-words {
@@ -1053,16 +1053,23 @@ nav .nav-wrapper ul li ul li a:hover {
   @media screen and (max-width: 949px) and (min-width: 859px) {
         .exhib-words-container {
             padding-right: 10px;
+            max-width: 400px;
         }
 
         .exhib-image-container {
             padding-left: 50px;
         }
+
+        .exhib-words {
+            font-size: 12px;
+            max-width: 400px;
+        }
   }
 
   @media screen and (max-width: 858px) and (min-width: 796px) {
         .exhib-words-container {
-        padding-right: 10px;
+            padding-right: 10px;
+            
         }
 
         .exhib-image-container {
@@ -1070,7 +1077,8 @@ nav .nav-wrapper ul li ul li a:hover {
         }
 
         .exhib-words {
-            font-size: 13px;
+            font-size: 11px;
+            
         }
   }
 
@@ -1084,7 +1092,7 @@ nav .nav-wrapper ul li ul li a:hover {
         }
 
         .exhib-words {
-            font-size: 12px;
+            font-size: 10px;
         }
   }
 
@@ -1092,7 +1100,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
         .exhib-content-section {
             display: block;
-            height: 780px;
+            height: 1300px;
             width: 450px;
             margin: 0 auto;
         }
@@ -1100,7 +1108,7 @@ nav .nav-wrapper ul li ul li a:hover {
         .exhib-words-container {
             padding-right: 15px;
             /* HEIGHT CHANGE WHEN ADD TEXT BACK IN */
-            height: 150px;
+            height: 648px;
             width: 440px;
         }
 
