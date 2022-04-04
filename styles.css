@@ -903,6 +903,10 @@ nav .nav-wrapper ul li ul li a:hover {
         height: 200px;
     }
 
+    .bio-credit {
+        font-size: 8px;
+    }
+
     /* HOME PAGE */
 
     .home-image-container, .home-page-image {
@@ -973,7 +977,7 @@ nav .nav-wrapper ul li ul li a:hover {
     .home-credit {
         
         margin-top: -310px;
-        font-size: 8px;
+        font-size: 7px;
         position: relative;
         z-index: -1;
     }
