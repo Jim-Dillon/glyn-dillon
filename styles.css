@@ -777,12 +777,16 @@ nav .nav-wrapper ul li ul li a:hover {
         margin-left: -93px;
         padding-top: 99px;
         margin-top: 31px;
+        /* position: relative;
+        z-index: 5; */
     }
 
     .IG-dropdown {
         padding-top: 250px;
         width: 170px;
         margin-top: 33px;
+        position: relative;
+        z-index: 5;
     }
 
     nav .nav-wrapper ul li ul li {
@@ -795,6 +799,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
     .sticky-footer {
         position: static;
+
     }
 
 
@@ -957,6 +962,8 @@ nav .nav-wrapper ul li ul li a:hover {
 
     .home-sticky-footer, .home-footer-section, .home-footer-container {
         height: 0px;
+        position: relative;
+        z-index: 0;
     }
 
     .homepage-body {
@@ -964,9 +971,11 @@ nav .nav-wrapper ul li ul li a:hover {
     }
 
     .home-credit {
-        /* display: none; */
+        
         margin-top: -310px;
         font-size: 8px;
+        position: relative;
+        z-index: -1;
     }
 
     /* ARTWORK PAGE */
