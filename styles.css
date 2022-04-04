@@ -976,10 +976,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
     .home-credit {
         
-        margin-top: -310px;
-        font-size: 7px;
-        position: relative;
-        z-index: -1;
+        display: none;
     }
 
     /* ARTWORK PAGE */
