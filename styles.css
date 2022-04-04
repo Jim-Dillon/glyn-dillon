@@ -325,7 +325,7 @@ body {
 .contact-form__field {
     width: 50%;
     margin-bottom: 1rem;
-    float: right;
+    float: left;
 }
 
 .contact-form label {
