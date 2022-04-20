@@ -207,6 +207,13 @@ body {
     height: 604px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.curater-button:visited {
+    color: red;
+}
 
 
 /* ARTWORK CAROUSEL */
