@@ -185,7 +185,7 @@ body {
 }
 
 .exhib-words {
-    color: grey;
+    color: rgb(148, 147, 147);
     line-height: 1.4;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -211,8 +211,12 @@ a {
     text-decoration: none;
 }
 
-.curater-button:visited {
+.curater-button {
     color: red;
+}
+
+.curater-button:visited {
+    color: grey;
 }
 
 
