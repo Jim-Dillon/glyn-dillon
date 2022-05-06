@@ -33,6 +33,7 @@ prevButton.addEventListener('click', e => {
         prevSlide = currentSlide.previousElementSibling;
     }
 
+    showImage(prevSlide);
     moveToSlide(track, currentSlide, prevSlide);
 });
 
@@ -48,7 +49,7 @@ nextButton.addEventListener('click', e => {
     } else {
         nextSlide = currentSlide.nextElementSibling;
     }
-
+    showImage(nextSlide);
     moveToSlide(track, currentSlide, nextSlide);
 });
 
@@ -58,6 +59,15 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
     currentSlide.classList.remove('current-slide');
     targetSlide.classList.add('current-slide');
 }
+
+// Take the data-src attribute of the current slide and set it as the background image of the carousel
+const showImage = (slide) => {
+    const image = slide.querySelector('.carousel__image');
+    console.log('showImage', image.src)
+    if (image.src === '') {
+        image.src = image.dataset.src;
+    }
+};
 
 window.addEventListener('resize', init);
 init();
