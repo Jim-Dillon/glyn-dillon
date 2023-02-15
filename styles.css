@@ -16,7 +16,7 @@ body {
 /* MAIN IMAGE SECTION */
 
 .home-image-container {
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .home-footer-container {
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
     /* float: right; */
     height: 70px;
