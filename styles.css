@@ -979,7 +979,7 @@ nav .nav-wrapper ul li ul li a:hover {
         height: 230px;
         width: 36px;
         margin: 0 auto;
-        padding-top: 170px;
+        padding-top: 215px;
     }
 
     .stickman-image {
@@ -1015,8 +1015,8 @@ nav .nav-wrapper ul li ul li a:hover {
     }
 
     .home-credit {
-        
-        display: none;
+        margin-top: -313px;
+        /* display: none; */
     }
 
     /* ARTWORK PAGE */
@@ -1241,6 +1241,11 @@ nav .nav-wrapper ul li ul li a:hover {
 
     .exhib-caption {
         display: block !important;
+        margin-top: 0px !important;
+    }
+
+    .exhib-credit {
+        margin-top: 0px !important;
     }
 }
 
