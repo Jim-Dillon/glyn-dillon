@@ -360,6 +360,13 @@ a {
     bottom: 0px;
 }
 
+.artwork-photographer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
 .art-caption {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -1055,6 +1062,16 @@ nav .nav-wrapper ul li ul li a:hover {
 
 
 /* ANYTHING BIGGER THAN MOBILE */
+
+
+    /* ARTWORK PAGE */
+
+  @media screen and (max-width: 2240px) and (min-width: 1445px) {
+      .artwork-photographer {
+          width: 50%;
+      }
+
+    }
 
     /* HOME PAGE */
 
