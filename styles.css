@@ -1035,7 +1035,7 @@ nav .nav-wrapper ul li ul li a:hover {
     /* ARTWORK PAGE */
 
     .artwork-body {
-        height: 660px;
+        height: 682px;
     }
 
     .carousel {
@@ -1053,11 +1053,11 @@ nav .nav-wrapper ul li ul li a:hover {
 
     .carousel__track-container {
         padding-top: 15px;
-        height: 650px
+        height: 685px
     }
 
     .art-footer-section {
-        height: 100px;
+        height: 120px;
         top: 60px;
     }
 
