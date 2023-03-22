@@ -207,6 +207,7 @@ body {
 .exhib-footer {
     display: flex;
     justify-content: space-between;
+    height: 70px !important;
 }
 
 .exhib-footer-section {
@@ -1816,7 +1817,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
     }
 
-    @media screen and (max-height: 1265px) and (min-height: 1173px) {
+    @media screen and (min-height: 1173px) {
 
         .art-caption {
             color: white;
@@ -1848,7 +1849,7 @@ nav .nav-wrapper ul li ul li a:hover {
         }
 
         .art-footer-section {
-            height: 175px;
+            height: 310px;
         }
 
         .art-footer-container {
@@ -1874,29 +1875,7 @@ nav .nav-wrapper ul li ul li a:hover {
             margin: 0 auto;
         }
 
-        /* .bio-content-container {
-            height: 620px;
-            max-width: 820px;
-        }
 
-        .bio-content-words {
-            height: 340px;
-            font-size: 19px;
-        }
-
-        .bio-first-para {
-            height: 237px;
-        }
-
-        .bio-second-para {
-            height: 86px;
-            margin-top: -42px;
-        }
-
-        .bio-image {
-            width: 780px;
-            height: 470px;
-        } */
 
     /* CONTACT */
 
@@ -1907,5 +1886,11 @@ nav .nav-wrapper ul li ul li a:hover {
         .contact-wrapper {
             padding-top: 270px;
         }
+
+    /* FOOTER */
+
+    .footer-container {
+        height: 219px;
+    }
 
     }
