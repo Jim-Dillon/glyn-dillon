@@ -910,7 +910,7 @@ nav .nav-wrapper ul li ul li a:hover {
         /* padding-left: 25px; */
         /* padding-right: 25px; */
         /* margin-bottom: 25px; */
-        height: 300px;
+        /* height: 300px; */
         /* margin-top: -40px; */
     }
 
@@ -1028,7 +1028,7 @@ nav .nav-wrapper ul li ul li a:hover {
 
     .home-credit {
         margin-top: -318px;
-        font-size: 4px;
+        font-size: 6px;
         /* display: none; */
     }
 
