@@ -1095,6 +1095,19 @@ nav .nav-wrapper ul li ul li a:hover {
     }
   }
 
+  @media only screen and (max-width: 1870px) {
+    
+    .home-image-container {
+        max-width: 1410px;
+    }
+
+    .home-footer-container {
+        max-width: 1410px;
+    }
+  }
+
+
+
   @media only screen and (min-width: 1049px) {
       .homepage-copy {
           height: 0px;
