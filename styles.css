@@ -136,7 +136,7 @@ body {
 
 .bio-credit {
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 6px;
     color: white;
     /* width: 150px; */
     float: right;
@@ -174,7 +174,7 @@ body {
     /* display: flex;
     justify-content: space-between; */
     /* height: 604px; */
-    max-width: 905px;
+    max-width: 74%;
     margin: 0 auto;
 }
 
@@ -193,7 +193,7 @@ body {
 }
 
 .exhib-image-container {
-    max-width: 905px;
+    max-width: 100%;
     /* height: 604px; */
     /* margin-right: 27px; */
     /* padding-left: 120px; */
@@ -210,7 +210,7 @@ body {
 }
 
 .exhib-footer-section {
-    max-width: 905px;
+    max-width: 74%;
     margin: 0 auto;
 }
 
@@ -1169,13 +1169,20 @@ nav .nav-wrapper ul li ul li a:hover {
         position: sticky;
     } */
 
- 
 
-
-  }
 
 
     /* EXHIB PAGE */
+
+  @media screen and (max-width: 1870px) {
+    .exhib-content-section {
+        max-width: 1390px;
+    }
+
+    .exhib-footer-section {
+        max-width: 1390px;
+    }
+  }  
 
   @media screen and (max-width: 1048px) and (min-width: 950px) {
         .exhib-words-container {
