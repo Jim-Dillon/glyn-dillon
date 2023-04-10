@@ -1,0 +1,380 @@
+/* ARTWORK CAROUSEL */
+
+.carousel {
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel__image {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    position: relative;
+    z-index: -1;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.carousel__track-container {
+    height: 110%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: -3px;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.carousel__button {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    width: 30vw;
+    height: 400px;
+}
+
+.carousel__button--left {
+    left: -60px;
+    cursor: w-resize;
+    z-index: 2;
+}
+
+.carousel__button--right {
+    right: -60px;
+    cursor: e-resize;
+    z-index: 2;
+}
+
+.carousel__button img {
+    width: 12px;
+}
+
+.carousel__slide {
+    opacity: 0;
+
+}
+.current-slide {
+    transition: opacity .5s ease-in-out;
+    opacity: 1;
+
+}
+
+.art-footer-section {
+    background-color: black;
+    margin-top: -10px;
+    position: relative;
+    z-index: -1;
+}
+
+.art-footer-container {
+    max-width: 1312px;
+    height: 84px;
+    bottom: 0px;
+}
+
+.artwork-photographer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.art-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-bottom: -50px;
+    height: 3rem;
+    position: relative;
+    z-index: 500;
+    top: 60px;
+    text-align: center;
+}
+
+.jake-caption {
+    font-size: 6px;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width:450px) {
+    .artwork-body {
+        height: 682px;
+    }
+
+    .carousel {
+        width: 80%;
+        height: 520px;
+    }
+
+    .carousel__button--right {
+        right: -35px;
+    }
+
+    .carousel__track-container {
+        padding-top: 15px;
+        height: 685px
+    }
+
+    .art-footer-section {
+        height: 120px;
+        top: 60px;
+    }
+
+    .art-caption {
+        top: 38px;
+    }
+}
+
+
+/* BIGGER THAN MOBILE */
+
+@media screen and (max-width: 768px) {
+    .caption-33 {
+        width: 510px;
+        height: 3rem;
+        margin: 0 auto;
+        line-height: 1.3;
+    }
+
+    .caption-34 {
+        width: 540px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 2240px) and (min-width: 1445px) {
+    .artwork-photographer {
+        width: 50%;
+    }
+}
+
+
+/* MEDIA QUERY BY HEIGHT */
+
+@media screen and (max-height: 800px) and (min-height: 752px) {
+    .art-caption {
+        color: white;
+    }
+
+    .artwork-body {
+        height: 674px;
+    }
+
+    .carousel {
+        height: 600px;
+
+    }
+
+    .carousel__track-container {
+        height: 660px;
+    }
+
+    .carousel__track {
+        height: 660px;
+    }
+
+    .carousel__image {
+        height: 500px;
+    }
+
+    .art-footer-section {
+        height: 128px;
+    }
+
+    .art-footer-container {
+        height: 128px;
+    }
+}
+
+@media screen and (max-height: 903px) and (min-height: 801px) {
+    .art-caption {
+        color: white;
+    }
+
+    .artwork-body {
+        height: 734px;
+    }
+
+    .carousel {
+        height: 660px;
+    }
+
+    .carousel__track-container {
+        height: 730px;
+    }
+
+    .carousel__track {
+        height: 999px;
+    }
+
+    .carousel__image {
+        height: 560px;
+    }
+
+    .art-footer-section {
+        height: 175px;
+    }
+
+    .art-footer-container {
+        height: 175px;
+    }
+}
+
+@media screen and (max-height: 990px) and (min-height: 904px) {
+    .art-caption {
+        color: white;
+    }
+
+    .artwork-body {
+        height: 820px;
+    }
+
+    .carousel {
+        height: 745px
+    }
+
+    .carousel__track-container {
+        height: 815px;
+    }
+
+    .carousel__track {
+        height: 1085px;
+    }
+
+    .carousel__image {
+        height: 644px;
+    }
+
+    .art-footer-section {
+        height: 175px;
+    }
+
+    .art-footer-container {
+        height: 175px;
+    }
+}
+
+@media screen and (max-height: 1081px) and (min-height: 991px) {
+    .art-caption {
+        color: white;
+    }
+
+    .artwork-body {
+        height: 904px;
+    }
+
+    .carousel {
+        height: 829px
+    }
+
+    .carousel__track-container {
+        height: 899px;
+    }
+
+    .carousel__track {
+        height: 1169px;
+    }
+
+    .carousel__image {
+        height: 728px;
+    }
+
+    .art-footer-section {
+        height: 175px;
+    }
+
+    .art-footer-container {
+        height: 175px;
+    }
+}
+
+@media screen and (max-height: 1172px) and (min-height: 1082px) {
+    .art-caption {
+        color: white;
+    }
+
+    .artwork-body {
+        height: 1000px;
+    }
+
+    .carousel {
+        height: 925px
+    }
+
+    .carousel__track-container {
+        height: 994px;
+    }
+
+    .carousel__track {
+        height: 1265px;
+    }
+
+    .carousel__image {
+        height: 823px;
+    }
+
+    .art-footer-section {
+        height: 175px;
+    }
+
+    .art-footer-container {
+        height: 175px;
+    }
+}
+
+@media screen and (min-height: 1173px) {
+    .art-caption {
+        color: white;
+    }
+
+    .artwork-body {
+        height: 1100px;
+    }
+
+    .carousel {
+        height: 1025px
+    }
+
+    .carousel__track-container {
+        height: 1094px;
+    }
+
+    .carousel__track {
+        height: 1365px;
+    }
+
+    .carousel__image {
+        height: 923px;
+    }
+
+    .art-footer-section {
+        height: 310px;
+    }
+
+    .art-footer-container {
+        height: 175px;
+    }
+}

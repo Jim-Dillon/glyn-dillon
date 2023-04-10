@@ -1,0 +1,26 @@
+/* THANK YOU MESSAGE */
+
+.thanks-container {
+    max-width: 500px;
+    height: 603px;
+    margin: 0 auto;
+    padding-top: 230px;
+}
+
+.thanks-message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width:450px) {
+    .thanks-container {
+        height: 526px;
+        padding-top: 160px;
+    }
+}

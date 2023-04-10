@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/*DROPDOWN */
+    .sticky-header {
+        position: sticky;
+        z-index: 5;
+        top: 0;
+    }
+
+    nav {
+        width: 100%;
+        height: 81px;
+        background-color: black;
+    }
+
+    .nav-wrapper {
+        max-width: 1440px;
+        height: 70px;
+        margin: 0 auto;
+        padding: 1rem 0rem 65px;
+    }
+
+
+/* NEW LOGO  */
+    .logo-container {
+        width: 230px;
+        float: left;
+    }
+
+    .logo-1 {
+        max-width: 230px;
+        margin-right: 0px;
+    }
+
+    .logo-image {
+        width: 230px;
+        height: 55px;
+        margin-left: 20px;
+    }
+
+
+/* MAIN HEADINGS GROUP*/
+    .nav-icons {
+        float: right;
+        margin-top: -17px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+
+/* EACH MAIN HEADING */
+    nav .nav-wrapper ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+        z-index: 3;
+        margin-left: 0px;
+        height: 75px;
+        width: 67px;
+    }
+
+/* LINKS WITHIN EACH HEADING */
+    nav .nav-wrapper ul li a {
+        display: block;
+        color: grey;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .Instagram-icon {
+        padding-top: 20.5px;
+        padding-bottom: 17.5px;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .Instagram {
+        width: 40px;
+        height: 40px;
+    }
+
+    .dropdown-icon {
+        padding-top: 20px;
+        padding-bottom: 19.5px;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .dropdown-image {
+        width: 43px;
+        height: 43px;
+    }
+
+    .IG-dropdown {
+        display: none;
+        position: absolute;
+        z-index: 3;
+        padding-left: 0px;
+        padding-right: 5px;
+        padding-top: 174px;
+        background-color: rgb(99, 98, 98);
+        width: 150px;
+        height: 250px;
+        margin-top: -61px;
+        margin-left: -96px;
+    }
+
+    .pages-dropdown {
+        display: none;
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 5px;
+        padding-top: 78px;
+        background-color: rgb(99, 98, 98);
+        width: 150px;
+        height: 250px;
+        margin-top: -66px;
+        margin-left: -93px;
+        z-index:100;
+    }
+
+
+/* HOVER TO ACTIVATE THE DROPDOWN */
+    nav .nav-wrapper ul li:hover ul {
+        display: block;
+    }
+
+/* EACH DROPDOWN SQUARE */
+    nav .nav-wrapper ul li ul li {
+        width: 120px;
+        height: 2rem;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+/* EACH DROPDOWN BUTTON LINK */
+    nav .nav-wrapper ul li ul li a {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        padding: 8px 14px;
+        color: white;
+    }
+
+/* STYLE WHEN HOVER ON DROPDOWN BUTTON */
+    nav .nav-wrapper ul li ul li a:hover {
+        color: black;
+    }
+
+/* Utility classes */
+    .u-off-screen {
+        position: absolute;
+        left: -9999px;
+    }
+
+/* FOOTER */
+    .sticky-footer {
+        position: sticky;
+        z-index: 5;
+        bottom: 0;
+    }
+
+    .footer-section {
+        background-color: black;
+    }
+
+    .footer-container {
+        max-width: 2400px;
+        height: 70px;
+    }
+
+
+
+/* MOBILE DESIGN  */
+
+@media only screen and (max-width:450px) {
+
+    /* NAV BAR */
+        .logo-image, .logo-container, .logo-1 {
+            width: 150px;
+            height: 35px;
+        }
+
+        .logo-container {
+            padding-left: 10px;
+            padding-top: 2px;
+        }
+
+        .logo-image {
+            margin-left: 10px;
+        }
+
+        .nav-icons {
+            padding-right: 0px;
+            padding-top: -6px;
+        }
+
+        .IG-header, .Instagram-icon, .Instagram, .dropdown-header, .dropdown-icon, .dropdown-image {
+            width: 33px;
+            height: 33px;
+        }
+
+        nav, .nav-wrapper, footer {
+            height: 70px;
+            top: 0;
+        }
+
+
+    /* DROPDOWN */
+        .pages-dropdown, .IG-dropdown {
+            height: 350px;
+        }
+
+        .pages-dropdown {
+            width: 170px;
+            padding-right: 20px;
+            margin-left: -93px;
+            padding-top: 99px;
+            margin-top: 31px;
+        }
+
+        .IG-dropdown {
+            padding-top: 250px;
+            width: 170px;
+            margin-top: 33px;
+            position: relative;
+            z-index: 5;
+        }
+
+        nav .nav-wrapper ul li ul li {
+            height: 50px;
+            width: 170px;
+        }
+
+
+    /* FOOTER */
+        .sticky-footer {
+            position: static;
+        }
+  }
+
+
+/* BIGGER THAN MACBOOK - BY HEIGHT */
+
+@media screen and (min-height: 1173px) {
+  
+    /* FOOTER */
+
+        .footer-container {
+            height: 219px;
+        }
+    }
